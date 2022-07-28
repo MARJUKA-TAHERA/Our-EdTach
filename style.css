@@ -2,3 +2,9 @@
     color: #4A4A4A;
     font-size: 40px;
 }
+.bg-color{
+    background-image:
+    linear-gradient(to right, rgba(11, 11, 11, 0.884), rgba(71, 70, 70, 0.051)),
+    url('images/Rectangle\ 1.png');
+
+}
