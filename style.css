@@ -8,6 +8,12 @@
     url('images/Rectangle\ 1.png');
 
 }
+@media screen and (min-width: 0px) and (max-width:576px) {
+   .edu-text{
+        font-size: 25px;
+   }
+    
+    }
 .company {
     display: none;
 }
@@ -17,13 +23,21 @@
     }
 }
 @media screen and (min-width: 0px) and (max-width:576px) {
-    .banner{
+    .banner p{
        font-size: 5px;
+    }
+    .banner h1 {
+        font-size: large;
     }
 }
 @media screen and (min-width: 992px) {
     .banner{
         margin-bottom: 120px;
         
+    }
+}
+@media screen and (max-width: 576px) {
+    .reverse {
+        flex-direction: column-reverse;
     }
 }
