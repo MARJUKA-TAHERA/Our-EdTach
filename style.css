@@ -16,3 +16,14 @@
         display: block;
     }
 }
+@media screen and (min-width: 0px) and (max-width:576px) {
+    .banner{
+       font-size: 5px;
+    }
+}
+@media screen and (min-width: 992px) {
+    .banner{
+        margin-bottom: 120px;
+        
+    }
+}
